@@ -1,25 +1,26 @@
-/* body{
+/* html, body {
+    height: 100%;
     overflow-x: hidden;
 }
-.home{
-    background: url(../images/background1.jpg);
+
+.home {
+    height: 100%;
+    background-image: url('../images/background1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-
+    background-position: center;
 }
 .home-row {
     padding: 0px !important;
 }
-
 .text-block {
-    position: absolute;
+    position: relative;
     bottom: 300px;
     width: 336px;
     height: 355px;
     z-index: 15;
-    top: 30%;
-    left: 60%;
+    top: 110px;
+    left: 783px;
     right: 50px;
     margin: -100px 0 0 -26px;
     background-color: #03382b;
@@ -27,22 +28,35 @@
     padding-right: 20px;
     color: white;
 }
-.welcome-text{
+.text-block h2{
    margin-top: 145px;
 }
-.welcome-para{
-    
+.welcome-para{    
     font-size: small;
 }
 .btn {
-    
     color: white;
     border-color: white;
 } */
-.welcome-section{
-    
-    background: url(../images/background1.jpg);
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+.home {
+    height: 100%;
+    background-image: url('../images/background1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /*position: relative;*/
+    background-position: center;
+}
+.text-block{
+    position: absolute;
+    top: 250px;
+    left: 700px;
+    width: 336px;
+    height: 355px;
+    background-color: #03382b;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
 }
