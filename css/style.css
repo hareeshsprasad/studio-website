@@ -10,9 +10,9 @@ html, body {
     background-position: center;
 }
 .text-block{
-    position: absolute;
-    top: 250px;
-    left: 700px;
+    position: relative;
+    top: 100px;
+    left: 280px;
     width:400px;
     height: 355px;
     background-color: #03382b;
@@ -30,7 +30,14 @@ html, body {
 .service{
     background-color: white;
 }
+.service {
+    height:60%;
+    
+    
+}
 .card{
+    margin-top: 100px;
     position: absolute;
     left: 140px;
+    border: none;
 }
