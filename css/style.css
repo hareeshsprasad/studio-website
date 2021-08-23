@@ -10,9 +10,9 @@ html, body {
     background-position: center;
 }
 .text-block{
-    position: relative;
+    position: absolute;
     top: 100px;
-    left: 280px;
+    left: 690px;
     width:400px;
     height: 355px;
     background-color: #03382b;
@@ -21,7 +21,8 @@ html, body {
     color: white;
 }
 .welcome-text{
-    margin-top: 150px;
+    margin-top: 110px;
+    font-size:3vw;
 }
 .btn{
     color: white;
