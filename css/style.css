@@ -1,44 +1,119 @@
-html, body {
-    height: 100%;
+body{
     overflow-x: hidden;
+    height:100%;
+} 
+* {
+    box-sizing: border-box;
+  }
+#navbar {
+    overflow: hidden;
+    font-family:monospace;
+    font-size: 15px;
+    border-bottom: 3px solid transparent;    
+    background-color:white;
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#navbar a.active {
+    float: right;
+    padding: 10px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .home {
+    padding-top: 60px;
 }
 .home {
-    height: 100%;
-    background-image: url('../images/background1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    padding: 16px;
 }
-.text-block{
-    position: absolute;
-    top: 100px;
-    left: 690px;
-    width:400px;
-    height: 355px;
-    background-color: #03382b;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: white;
+.pro{
+    margin-top: 60px;
+    padding: 20px;
+    font-family:sans-serif;
+    font-size: x-large;
+} 
+.column {
+    margin-top: 10px;
+    float: left;
+    width: 25%;
+    padding: 5px;
+}  
+ 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
-.welcome-text{
-    margin-top: 110px;
-    font-size:3vw;
+.about{
+    margin-top: 60px;
+    padding: 20px;
+    font-family:sans-serif;
+    font-size: x-large;
+}
+.about-us{
+    /* margin-top: 5px; */
+    font-family:sans-serif;
+    padding: 20px;
 }
 .btn{
+    width: 100%;
+    height:35px;
+}
+.btn:hover{
+    background-color: rgb(224, 220, 220);
+    cursor: pointer;   
+}
+.contact h3{
+    margin-top: 20px;
+    /* padding: 20px; */
+    font-family:sans-serif;
+    font-size: x-large;
+}
+.contact h7{
+    margin: 0;
+    /* padding: 20px; */
+}
+.contact input{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+  
+}
+.contact button{
+    margin-top: 10px;
+    width: 15%;
+    height: 40px;
+    background-color: black;
     color: white;
-    border: 1px solid;
 }
-.service{
-    background-color: white;
+.message:hover{
+    background-color: rgb(139, 133, 133);
+    cursor: pointer;
+}    
+.contact img{
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
 }
-.service {
-    height:60%;
-    
-    
+.footer {   
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
-.card{
-    margin-top: 100px;
+
+.footer-text{
     position: absolute;
-    left: 140px;
-    border: none;
+    left: 530px;
+    /* top: 100px; */
 }
