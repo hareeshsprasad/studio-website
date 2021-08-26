@@ -67,10 +67,15 @@ body{
 .btn{
     width: 100%;
     height:35px;
+    border-color: blue;
+    background-color: white;
+    color: black;
 }
 .btn:hover{
-    background-color: rgb(224, 220, 220);
+    background-color: black;
+    color: white;
     cursor: pointer;   
+    border-color: white;
 }
 .contact h3{
     margin-top: 20px;
@@ -86,6 +91,10 @@ body{
     width: 100%;
     height: 40px;
     margin-top: 10px;
+    background-color: white;
+    border-radius: 2px solid;
+    border-color: blue;
+    
   
 }
 .contact button{
